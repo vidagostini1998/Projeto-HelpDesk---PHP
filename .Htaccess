@@ -1,0 +1,11 @@
+Options All -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^index?$ /index.php [NC,L]
+</IfModule>
+
+
+
+
